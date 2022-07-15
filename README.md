@@ -42,6 +42,7 @@ https://www.redmine.org/projects/redmine/wiki/Plugins?utm_source=newsletter&utm_
 
 ## 이지간트는 여기
 https://www.easyredmine.com/redmine-gantt-plugin
+https://www.easyredmine.com/redmine-gantt-plugin#pux-modal-redmine-gantt-download
 
 
 ## 추가 플러그인
