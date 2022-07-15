@@ -31,3 +31,7 @@ bundle exec rake redmine:plugins:migrate NAME=redmine_dmsf RAILS_ENV=production
 홈페이지: https://github.com/ojdkbuild/ojdkbuild
 
 다운로드 링크: https://github.com/ojdkbuild/ojdkbuild/releases/download/java-11-openjdk-11.0.15.9-1/java-11-openjdk-11.0.15.9-1.windows.ojdkbuild.x86_64.zip
+
+## SCMManager
+홈페이지: https://scm-manager.org/
+다운로드 링크: https://scm-manager.org/download/#windows
