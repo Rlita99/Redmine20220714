@@ -6,19 +6,23 @@ https://downloads.bitnami.com/files/stacks/redmine/4.2.4-0/bitnami-redmine-4.2.4
 
 ## Redmine Plugin 설치
 
-### Gem Install
+### 1. Gem Install
 ```
 bundle install --without development test
 ```
 
 
-### DB Migration
+### 2. DB Migration
+```
+bundle exec rake db:migrate RAILS_ENV=production
+```
+
 ```
 bundle exec rake redmine:plugins:migrate RAILS_ENV=production
 ```
 
 
-## DMSF Migraton
+## DMSF의 경우 Migraton
 ```
 bundle exec rake db:migrate RAILS_ENV=production
 ```
