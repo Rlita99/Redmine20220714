@@ -16,3 +16,13 @@ bundle install --without development test
 ```
 bundle exec rake redmine:plugins:migrate RAILS_ENV=production
 ```
+
+
+## DMSF Migraton
+```
+bundle exec rake db:migrate RAILS_ENV=production
+```
+
+```
+bundle exec rake redmine:plugins:migrate NAME=redmine_dmsf RAILS_ENV=production
+```
