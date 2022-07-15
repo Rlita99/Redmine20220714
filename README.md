@@ -58,3 +58,8 @@ https://kmin135.blogspot.com/2017/08/bitnami-redmine.html
 ```
 mysqldump -ubitnami -p bitnami_redmine > RedmineDBBackup.dump
 ```
+
+### DB 복원
+```
+mysql -ubitnami -p bitnami_redmine < RedmineDBBackup.dump
+```
