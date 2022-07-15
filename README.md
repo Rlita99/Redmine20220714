@@ -54,6 +54,8 @@ https://www.redmineup.com/pages/plugins/agile
 ## 백업 방법
 https://kmin135.blogspot.com/2017/08/bitnami-redmine.html
 
+Redmine packaged by Bitnami 사용 으로 실행할 것
+
 ### DB Backup
 ```
 mysqldump -ubitnami -p bitnami_redmine > RedmineDBBackup.dump
